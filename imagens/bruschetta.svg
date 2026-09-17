@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0%" stop-color="#9a4f3d"/><stop offset="100%" stop-color="#5b2d26"/>
+  </linearGradient>
+</defs>
+<rect width="1200" height="700" fill="url(#bg)"/>
+<circle cx="1040" cy="120" r="180" fill="#f4c477" opacity=".10"/>
+<circle cx="170" cy="590" r="220" fill="#ffffff" opacity=".07"/>
+
+        <ellipse cx="600" cy="310" rx="330" ry="145" fill="#f6f0df"/>
+        <rect x="360" y="260" width="220" height="95" rx="28" transform="rotate(-10 360 260)" fill="#c88d4b"/>
+        <rect x="555" y="245" width="220" height="95" rx="28" transform="rotate(8 555 245)" fill="#d9a35f"/>
+        <circle cx="465" cy="273" r="18" fill="#c8503e"/><circle cx="520" cy="297" r="16" fill="#d85c42"/>
+        <circle cx="655" cy="280" r="17" fill="#c8503e"/><circle cx="700" cy="307" r="16" fill="#d85c42"/>
+        <path d="M505 250 C520 220,545 220,560 245 C540 254,522 255,505 250Z" fill="#4f7d4f"/>
+        <path d="M675 250 C690 220,715 220,730 245 C710 254,692 255,675 250Z" fill="#4f7d4f"/>
+        
+<text x="600" y="565" text-anchor="middle" fill="#ffffff" font-family="Georgia,serif" font-size="44" font-weight="700">Bruschetta Artesanal</text>
+<text x="600" y="615" text-anchor="middle" fill="#ffffff" opacity=".82" font-family="Arial,sans-serif" font-size="24">Entrada</text>
+</svg>

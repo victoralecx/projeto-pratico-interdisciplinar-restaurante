@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0%" stop-color="#704333"/><stop offset="100%" stop-color="#3f251e"/>
+  </linearGradient>
+</defs>
+<rect width="1200" height="700" fill="url(#bg)"/>
+<circle cx="1040" cy="120" r="180" fill="#f2c987" opacity=".10"/>
+<circle cx="170" cy="590" r="220" fill="#ffffff" opacity=".07"/>
+
+        <ellipse cx="600" cy="355" rx="300" ry="120" fill="#f3ecdf"/>
+        <rect x="470" y="285" width="250" height="145" rx="20" fill="#6d3f2e"/>
+        <rect x="500" y="305" width="190" height="95" rx="14" fill="#7b4934"/>
+        <circle cx="600" cy="245" r="95" fill="#f6ead4"/>
+        <path d="M540 230 Q600 190 660 230 Q620 270 560 270Z" fill="#fff8ec"/>
+        <path d="M495 330 Q600 280 705 335" fill="none" stroke="#4d2a20" stroke-width="14"/>
+        
+<text x="600" y="565" text-anchor="middle" fill="#ffffff" font-family="Georgia,serif" font-size="44" font-weight="700">Brownie com Sorvete</text>
+<text x="600" y="615" text-anchor="middle" fill="#ffffff" opacity=".82" font-family="Arial,sans-serif" font-size="24">Sobremesa</text>
+</svg>

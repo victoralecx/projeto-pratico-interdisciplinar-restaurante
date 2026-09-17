@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Menu do restaurante fictício Sabores da Floresta">
+    <title>Sabores da Floresta | Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container cabecalho-conteudo">
+            <a class="marca" href="#inicio" aria-label="Sabores da Floresta - início">
+                <img src="imagens/logo.svg" alt="Logotipo do restaurante Sabores da Floresta">
+                <div>
+                    <h1>Sabores da Floresta</h1>
+                    <p>Cozinha contemporânea</p>
+                </div>
+            </a>
+
+            <nav class="navegacao" aria-label="Navegação principal">
+                <a href="menu.html#inicio">Início</a>
+                <a href="menu.html#menu">Menu</a>
+                <a href="menu.html#sobre">Sobre</a>
+                <a href="menu.html#contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="inicio">
+        <section class="hero">
+            <div class="container hero-conteudo">
+                <p class="rotulo">RESTAURANTE FICTÍCIO</p>
+                <h2>Sabores preparados para transformar uma refeição em experiência.</h2>
+                <p class="hero-texto">
+                    Um menu simples, elegante e inspirado em ingredientes brasileiros,
+                    reunindo entradas, pratos principais e sobremesas.
+                </p>
+                <a class="botao" href="#menu">Ver menu</a>
+            </div>
+        </section>
+
+        <section id="menu" class="menu container">
+            <div class="titulo-secao">
+                <p class="rotulo">NOSSO MENU</p>
+                <h2>Escolha seu prato</h2>
+                <p>Todos os itens abaixo são fictícios e foram criados para fins acadêmicos.</p>
+            </div>
+
+            <section class="categoria" aria-labelledby="titulo-entradas">
+                <div class="categoria-topo">
+                    <div>
+                        <p class="numero-categoria">01</p>
+                        <h3 id="titulo-entradas">Entradas</h3>
+                    </div>
+                    <p>Começos leves e cheios de sabor.</p>
+                </div>
+
+                <div class="grade-pratos">
+                    <article class="prato">
+                        <img src="imagens/bruschetta.svg" alt="Ilustração de bruschetta artesanal">
+                        <div class="prato-conteudo">
+                            <div class="prato-titulo">
+                                <h4>Bruschetta Artesanal</h4>
+                                <span>R$ 24,90</span>
+                            </div>
+                            <p>
+                                Pão italiano tostado com tomate, manjericão fresco,
+                                alho e azeite extravirgem.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="prato">
+                        <img src="imagens/dadinho.svg" alt="Ilustração de dadinhos de tapioca">
+                        <div class="prato-conteudo">
+                            <div class="prato-titulo">
+                                <h4>Dadinho de Tapioca</h4>
+                                <span>R$ 27,90</span>
+                            </div>
+                            <p>
+                                Cubos crocantes de tapioca com queijo coalho,
+                                servidos com molho agridoce da casa.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="categoria" aria-labelledby="titulo-principais">
+                <div class="categoria-topo">
+                    <div>
+                        <p class="numero-categoria">02</p>
+                        <h3 id="titulo-principais">Pratos principais</h3>
+                    </div>
+                    <p>Receitas completas para o centro da mesa.</p>
+                </div>
+
+                <div class="grade-pratos">
+                    <article class="prato">
+                        <img src="imagens/fettuccine.svg" alt="Ilustração de fettuccine artesanal">
+                        <div class="prato-conteudo">
+                            <div class="prato-titulo">
+                                <h4>Fettuccine da Casa</h4>
+                                <span>R$ 49,90</span>
+                            </div>
+                            <p>
+                                Massa artesanal ao molho cremoso, parmesão,
+                                ervas frescas e toque de pimenta-do-reino.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="prato">
+                        <img src="imagens/peixe.svg" alt="Ilustração de peixe amazônico grelhado">
+                        <div class="prato-conteudo">
+                            <div class="prato-titulo">
+                                <h4>Peixe Amazônico Grelhado</h4>
+                                <span>R$ 57,90</span>
+                            </div>
+                            <p>
+                                Filé de peixe grelhado com arroz de ervas,
+                                legumes salteados e molho cítrico.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="categoria" aria-labelledby="titulo-sobremesas">
+                <div class="categoria-topo">
+                    <div>
+                        <p class="numero-categoria">03</p>
+                        <h3 id="titulo-sobremesas">Sobremesas</h3>
+                    </div>
+                    <p>Finalizações clássicas com apresentação moderna.</p>
+                </div>
+
+                <div class="grade-pratos">
+                    <article class="prato">
+                        <img src="imagens/brownie.svg" alt="Ilustração de brownie com sorvete">
+                        <div class="prato-conteudo">
+                            <div class="prato-titulo">
+                                <h4>Brownie com Sorvete</h4>
+                                <span>R$ 22,90</span>
+                            </div>
+                            <p>
+                                Brownie de chocolate servido quente com
+                                sorvete de creme e calda de chocolate.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="prato">
+                        <img src="imagens/pudim.svg" alt="Ilustração de pudim de leite">
+                        <div class="prato-conteudo">
+                            <div class="prato-titulo">
+                                <h4>Pudim da Casa</h4>
+                                <span>R$ 18,90</span>
+                            </div>
+                            <p>
+                                Pudim tradicional de leite condensado com
+                                calda artesanal de caramelo.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </section>
+
+        <section id="sobre" class="sobre">
+            <div class="container sobre-grade">
+                <div>
+                    <p class="rotulo">SOBRE</p>
+                    <h2>Sabores da Floresta</h2>
+                </div>
+                <p>
+                    O Sabores da Floresta é um restaurante fictício criado para esta
+                    atividade acadêmica. O projeto demonstra o uso de HTML para
+                    estruturar o conteúdo e CSS para criar identidade visual,
+                    organização, responsividade e consistência entre os elementos.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contato">
+        <div class="container rodape-grade">
+            <div>
+                <h2>Sabores da Floresta</h2>
+                <p>Projeto acadêmico de HTML e CSS.</p>
+            </div>
+
+            <div class="contato">
+                <p><strong>Endereço:</strong> Av. das Palmeiras, 1000 — Manaus/AM</p>
+                <p><strong>Telefone:</strong> (92) 99999-9999</p>
+                <p><strong>E-mail:</strong> contato@saboresdafloresta.com</p>
+            </div>
+        </div>
+
+        <div class="container credito">
+            <p>© 2026 Sabores da Floresta — Desenvolvido por Victor Alecxander Borghi Teixeira.</p>
+        </div>
+    </footer>
+</body>
+</html>

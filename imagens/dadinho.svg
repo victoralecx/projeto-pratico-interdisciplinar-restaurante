@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0%" stop-color="#a97b43"/><stop offset="100%" stop-color="#5b482a"/>
+  </linearGradient>
+</defs>
+<rect width="1200" height="700" fill="url(#bg)"/>
+<circle cx="1040" cy="120" r="180" fill="#f4d78c" opacity=".10"/>
+<circle cx="170" cy="590" r="220" fill="#ffffff" opacity=".07"/>
+
+        <ellipse cx="600" cy="330" rx="320" ry="120" fill="#f3ede0"/>
+        <g fill="#e2b565">
+          <rect x="400" y="230" width="110" height="110" rx="18"/><rect x="525" y="250" width="110" height="110" rx="18"/>
+          <rect x="650" y="225" width="110" height="110" rx="18"/><rect x="475" y="330" width="110" height="110" rx="18"/>
+          <rect x="610" y="335" width="110" height="110" rx="18"/>
+        </g>
+        <ellipse cx="790" cy="380" rx="70" ry="35" fill="#9e543e"/>
+        
+<text x="600" y="565" text-anchor="middle" fill="#ffffff" font-family="Georgia,serif" font-size="44" font-weight="700">Dadinho de Tapioca</text>
+<text x="600" y="615" text-anchor="middle" fill="#ffffff" opacity=".82" font-family="Arial,sans-serif" font-size="24">Entrada</text>
+</svg>

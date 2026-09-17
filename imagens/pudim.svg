@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0%" stop-color="#b27645"/><stop offset="100%" stop-color="#68402d"/>
+  </linearGradient>
+</defs>
+<rect width="1200" height="700" fill="url(#bg)"/>
+<circle cx="1040" cy="120" r="180" fill="#f0cf89" opacity=".10"/>
+<circle cx="170" cy="590" r="220" fill="#ffffff" opacity=".07"/>
+
+        <ellipse cx="600" cy="360" rx="300" ry="110" fill="#f2eadb"/>
+        <path d="M455 245 Q600 180 745 245 L720 380 Q600 430 480 380Z" fill="#e7c16f"/>
+        <path d="M470 245 Q600 200 730 245 Q600 300 470 245Z" fill="#9b5b31"/>
+        <path d="M500 270 Q600 240 700 270" fill="none" stroke="#f4dda7" stroke-width="12"/>
+        
+<text x="600" y="565" text-anchor="middle" fill="#ffffff" font-family="Georgia,serif" font-size="44" font-weight="700">Pudim da Casa</text>
+<text x="600" y="615" text-anchor="middle" fill="#ffffff" opacity=".82" font-family="Arial,sans-serif" font-size="24">Sobremesa</text>
+</svg>
